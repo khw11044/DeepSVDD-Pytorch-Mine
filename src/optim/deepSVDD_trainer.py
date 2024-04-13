@@ -9,7 +9,7 @@ import time
 import torch
 import torch.optim as optim
 import numpy as np
-
+from tqdm import tqdm
 
 class DeepSVDDTrainer(BaseTrainer):
 
@@ -71,7 +71,7 @@ class DeepSVDDTrainer(BaseTrainer):
             loss_epoch = 0.0
             n_batches = 0
             epoch_start_time = time.time()
-            for data in train_loader:
+            for data in tqdm(train_loader):
                 inputs, _, _ = data
                 inputs = inputs.to(self.device)
 
