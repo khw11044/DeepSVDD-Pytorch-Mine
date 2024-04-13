@@ -76,7 +76,15 @@ if __name__ == '__main__':
     print(results)
 
 '''
-airplane -> AUC 57.82%
-
+airplane : 57.82%
+automobile : 60.60%
+bird : 45.53% 
+cat : 60.26%
+deer : 54.63%
+dog : 64.41%
+frog : 57.58%
+horse : 56.78%
+ship : 76.06%
+truck : 67.50%
 
 '''

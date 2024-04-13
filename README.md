@@ -16,3 +16,21 @@ MNIST에 대해서는 뭐 98% 나오지만 CIFAR10에 대해서는 58~60% 정확
 visual studio code에서 간단하게 Run 버튼만 눌러도 실행하게 세팅하였다.
 
 [Deep-SVDD-PyTorch](https://github.com/lukasruff/Deep-SVDD-PyTorch)
+
+
+```python
+CiFAR10
+
+AUC
+airplane : 57.82%
+automobile : 60.60%
+bird : 45.53% 
+cat : 60.26%
+deer : 54.63%
+dog : 64.41%
+frog : 57.58%
+horse : 56.78%
+ship : 76.06%
+truck : 67.50%
+
+```
